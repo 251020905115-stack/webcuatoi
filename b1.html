@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FACE - Trang thông tin điện tử tổng hợp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- PHẦN ĐẦU TRANG & MENU -->
+    <header>
+      <div class="brand wrapper">
+        <div class="logo">FACE</div>
+        <span class="slogan">TRANG THÔNG TIN ĐIỆN TỬ TỔNG HỢP</span>
+      </div>
+      <nav>
+        <ul class="wrapper">
+          <li><a href="#">🏠 XÃ HỘI</a></li>
+          <li><a href="#">CHỨNG KHOÁN</a></li>
+          <li><a href="#">BẤT ĐỘNG SẢN</a></li>
+          <li><a href="#">DOANH NGHIỆP</a></li>
+          <li><a href="#">NGÂN HÀNG</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- PHẦN NỘI DUNG CHÍNH -->
+    <main class="wrapper">
+      <!-- 1. KHỐI TIN NỔI BẬT & LỊCH SỰ KIỆN -->
+      <section class="main-news">
+        <!-- Cột trái 70%: Tin chính + 3 tin phụ -->
+        <div class="news">
+          <h1 class="main-title">
+            Fed tăng lãi suất thêm 0,75%, phát tín hiệu sẽ giảm tốc độ thắt chặt
+            chính sách tiền tệ
+          </h1>
+          <div class="top-story">
+            <div class="story-text">
+              <p>
+                Lãi suất chuẩn của NHTW Mỹ đang ở mức cao nhất kể từ tháng
+                1/2008.
+              </p>
+            </div>
+            <div class="story-img">
+              <img src="anh-fed.jpg" alt="Chủ tịch Fed" />
+            </div>
+          </div>
+
+          <!-- 3 tin nhỏ nằm ngang bên dưới tin chính -->
+          <ul class="sub-news">
+            <li>
+              <img src="tin-1.jpg" alt="Tin 1" />
+              <p>
+                Xuất hiện một tỉnh đạt tất cả các chỉ tiêu kinh tế - xã hội đề
+                ra năm 2022
+              </p>
+            </li>
+            <li>
+              <img src="tin-2.jpg" alt="Tin 2" />
+              <p>
+                Hiệu suất các quỹ đầu tư cổ phiếu tiếp tục âm nặng trong tháng
+                10, hai tên tuổi lớn thua lỗ gần 50% kể từ đầu năm
+              </p>
+            </li>
+            <li>
+              <img src="tin-3.jpg" alt="Tin 3" />
+              <p>
+                Top lãi quý 3: VinHomes gần bằng cả Vietcombank, Techcombank,
+                BIDV cộng lại, duy nhất Vinamilk đi lùi so với cùng kỳ
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Cột phải 30%: Tìm kiếm & Lịch sự kiện -->
+        <div class="lists">
+          <div class="search-box">
+            <div class="search-input">
+              <input type="text" placeholder="Gõ mã CK hoặc tên công ty..." />
+              <button>🔍 Tìm kiếm</button>
+            </div>
+            <div class="search-options">
+              <label><input type="radio" name="type" checked /> Công ty</label>
+              <label><input type="radio" name="type" /> Tin tức</label>
+              <label><input type="radio" name="type" /> Lãnh đạo</label>
+            </div>
+          </div>
+
+          <h3 class="event-header">📅 LỊCH SỰ KIỆN</h3>
+          <table class="event-table">
+            <tr class="table-subhead">
+              <th>02/11</th>
+              <th>LỊCH HỌP ĐẠI HỘI CỔ ĐÔNG</th>
+            </tr>
+            <tr>
+              <td class="code">TDT</td>
+              <td>Giao dịch đầu tiên 2.559.802 cổ phiếu niêm yết bổ sung</td>
+            </tr>
+            <tr>
+              <td class="code">FTS</td>
+              <td>
+                Giao dịch 47.492.654 cổ phiếu thay đổi niêm yết (chia 5 đợt)
+              </td>
+            </tr>
+            <tr>
+              <td class="code">RCC</td>
+              <td>
+                Trả cổ phiếu thưởng (tỷ lệ 1:1.0735), phát hành cổ phiếu (tỷ lệ
+                1:0.6469)
+              </td>
+            </tr>
+            <tr>
+              <td class="code">SEA</td>
+              <td>Lấy ý kiến cổ đông bằng văn bản</td>
+            </tr>
+            <tr>
+              <td class="code">KHW</td>
+              <td>Lấy ý kiến cổ đông bằng văn bản</td>
+            </tr>
+            <tr>
+              <td class="code">BTD</td>
+              <td>Trả cổ tức bằng tiền mặt (3.000đ/cp)</td>
+            </tr>
+            <tr>
+              <td class="code">FLC</td>
+              <td>ĐHĐCĐ thường niên năm 2022</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <!-- 2. KHỐI QUẢNG CÁO SẢN PHẨM: GIA ĐÌNH LÀ NHẤT -->
+      <section class="products">
+        <h3 class="title">Gia đình là nhất</h3>
+        <ul>
+          <li>
+            <span class="badge">39%</span>
+            <img src="may-giat-1.jpg" alt="Máy giặt 1" />
+            <div class="prod-info">
+              <p class="prod-name">
+                Máy giặt lồng ngang Aqua Inverter 9kg AQD-D900F.S
+              </p>
+              <p class="price-new">6.490.000<sup>đ</sup></p>
+              <p class="price-old">10.690.000đ</p>
+              <a href="#" class="btn-buy">TÌM HIỂU NGAY</a>
+            </div>
+          </li>
+          <li>
+            <span class="badge">19%</span>
+            <img src="may-giat-2.jpg" alt="Máy giặt 2" />
+            <div class="prod-info">
+              <p class="prod-name">
+                Máy giặt lồng ngang Aqua Inverter 9kg AQD-A800F.W
+              </p>
+              <p class="price-new">6.990.000<sup>đ</sup></p>
+              <p class="price-old">8.600.000đ</p>
+              <a href="#" class="btn-buy">TÌM HIỂU NGAY</a>
+            </div>
+          </li>
+          <li>
+            <span class="badge">39%</span>
+            <img src="may-giat-3.jpg" alt="Máy giặt 3" />
+            <div class="prod-info">
+              <p class="prod-name">
+                Máy giặt lồng ngang Aqua Inverter 9kg AQD-D900F.S
+              </p>
+              <p class="price-new">6.490.000<sup>đ</sup></p>
+              <p class="price-old">10.690.000đ</p>
+              <a href="#" class="btn-buy">TÌM HIỂU NGAY</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 3. KHỐI 3 CHUYÊN MỤC: KINH TẾ SỐ - VĨ MÔ - XÃ HỘI -->
+      <section class="cards">
+        <ul>
+          <li>
+            <h4 class="card-cat">KINH TẾ SỐ</h4>
+            <img src="kinh-te-so.jpg" alt="Kinh tế số" />
+            <h5 class="card-lead">
+              Khu công nghệ cao hút hơn 4 tỷ USD vốn đầu tư, tập hợp toàn ông
+              lớn ở Hà Nội
+            </h5>
+            <p class="card-link">
+              Facebook cập nhật "Chế độ chuyên nghiệp", tính năng kiếm tiền mới
+              cho người dùng Việt
+            </p>
+            <p class="card-link">
+              Giải pháp nào để chấm dứt vấn nạn cuộc gọi rác?
+            </p>
+          </li>
+          <li>
+            <h4 class="card-cat">VĨ MÔ</h4>
+            <img src="vi-mo.jpg" alt="Vĩ mô" />
+            <h5 class="card-lead">
+              Quận có 1/3 diện tích là mặt nước, thu ngân sách gần 4.000 tỷ mỗi
+              năm
+            </h5>
+            <p class="card-link">
+              Xuất hiện một tỉnh đạt tất cả các chỉ tiêu kinh tế - xã hội đề ra
+              năm 2022
+            </p>
+            <p class="card-link">
+              Đề xuất 6 nhóm giải pháp thúc đẩy giải ngân vốn đầu tư công
+            </p>
+          </li>
+          <li>
+            <h4 class="card-cat">XÃ HỘI</h4>
+            <img src="xa-hoi.jpg" alt="Xã hội" />
+            <h5 class="card-lead">
+              Đề xuất chỉ được rút 8% BHXH một lần: Vô lý
+            </h5>
+            <p class="card-link">
+              Cháy lớn tại nhà máy nhựa thông ở huyện biên giới Lộc Bình, Lạng
+              Sơn
+            </p>
+            <p class="card-link">
+              Chức danh Giáo sư, phó Giáo sư năm 2022 tăng, giảm thế nào trong 4
+              năm qua
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- CHÂN TRANG -->
+    <footer></footer>
+  </body>
+</html>
